@@ -6,6 +6,13 @@ Extract subtitles from YouTube videos via `yt-dlp`.
 
 Requires [yt-dlp](https://github.com/yt-dlp/yt-dlp) and Node.js, install those first.
 
+```sh 
+mise use -g node yt-dlp # via https://mise.jdx.dev
+brew install nodejs yt-dlp # Homebrew on macOS
+
+# ...more at https://github.com/yt-dlp/yt-dlp#installation
+```
+
 - Install as a skill:
 
   ```sh
