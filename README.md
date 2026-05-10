@@ -12,18 +12,22 @@ Requires [yt-dlp](https://github.com/yt-dlp/yt-dlp) and Node.js, install those f
   npx skills add rstacruz/youtube-transcript
   ```
 
-- Install as a CLI tool:
+- Use as a CLI tool:
 
-  > *(tbd)*
+  ```
+  npx github:rstacruz/youtube-transcript <url>
+  ```
 
 ## Usage (skill)
 
-Use your favourite tool and say: "summarise https://youtu.be/dQw4w9WgXcQ"
+Use your favourite agentic harness and say:
+
+> summarise https://youtu.be/dQw4w9WgXcQ
 
 ## Usage (CLI)
 
 ```
-youtube-transcript <url> [options]
+npx github:rstacruz/youtube-transcript <url> [options]
 ```
 
 **Options:**
