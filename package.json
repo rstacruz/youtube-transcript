@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "bin": {
-    "youtube-transcript": "./src/index.ts"
+    "youtube-transcript": "./skills/youtube-transcript/scripts/youtube-transcript.js"
   },
   "scripts": {
     "test": "node --test",
