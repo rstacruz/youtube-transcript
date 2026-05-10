@@ -1,0 +1,15 @@
+{
+  "name": "youtube-transcript",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "youtube-transcript": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "node --test",
+    "build": "bun build --target node src/index.ts --outfile skills/youtube-transcript/scripts/youtube-transcript.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.2"
+  }
+}
