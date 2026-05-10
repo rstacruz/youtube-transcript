@@ -13,10 +13,12 @@ Use this skill when the user asks for a YouTube transcript.
 2. Run the bundled transcript script:
 
 ```bash
-<skill-dir>/scripts/youtube-transcript.js <url> [--lang <lang>] [--format json]
+node <skill-dir>/scripts/youtube-transcript.js <url> [--lang <lang>] [--format json]
 ```
 
 The script handles downloading, parsing, and cleaning in one step — no separate download/parse phases needed.
+
+`node` is preferred, but `bun` and `deno` works as well. Use whatever is available in the system.
 
 ## Output Format
 
